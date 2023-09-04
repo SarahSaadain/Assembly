@@ -1,6 +1,6 @@
 Cleans the header from the fastq files to remove the unnecessary parts
 
-(there were \t seperated information from the sequencing facility)
+(there was \t seperated information from the sequencing facility)
 
 ```
 #!/bin/bash
