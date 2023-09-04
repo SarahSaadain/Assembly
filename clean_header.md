@@ -1,4 +1,5 @@
-Cleans the header from fastq files to remove the unnecessary parts (there were was tab separated parts from teh sequencing facility)
+Cleans the header from the fastq files to remove the unnecessary parts
+(there were \t seperated information from the sequecning facility)
 
 ```
 #!/bin/bash
