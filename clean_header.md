@@ -8,3 +8,9 @@ zless fastq/Dere_14062023_PAO93669.fastq.gz  | cut -f1 -d " " | gzip -c > fastq/
 
 date
 ```
+
+and then
+
+```
+nohup bash scripts/lengths_cores_assigned.sh > lengths.log &
+```
