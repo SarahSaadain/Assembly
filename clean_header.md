@@ -1,7 +1,5 @@
 Cleans the header from the fastq files to remove the unnecessary parts
 
-(there was \t seperated information from the sequencing facility)
-
 ```
 #!/bin/bash
 date
