@@ -12,5 +12,5 @@ date
 and then
 
 ```
-nohup bash scripts/lengths_cores_assigned.sh > lengths.log &
+nohup bash scripts/clean_header.sh > clean_header.log &
 ```
