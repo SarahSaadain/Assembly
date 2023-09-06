@@ -1,6 +1,6 @@
-```
-sorting the fastq files from longest to shortest read
+sorting the fastq files based on the length.txt I created prior
 
+```
 #!/bin/bash
 
 date
