@@ -17,4 +17,8 @@ submitted it with
 ```
 nohup bash scripts/sorting.sh > sorting.log &
 ```
+check if it worked
 
+```
+zless Dere_14062023_PAO93669_sorted.fastq.gz | head -12 | paste - - - - | awk '{print length($2)}'
+```
