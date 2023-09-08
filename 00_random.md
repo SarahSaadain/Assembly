@@ -1,4 +1,4 @@
 adding up lengths of all reads
 ```
-zless lengths.txt.gz | cut -f1 | paste -sd "+" |bc
+nohup bash -c 'zless lengths.txt.gz | cut -f1 | paste -sd "+" |bc > total_bases.txt' & 
 ```
