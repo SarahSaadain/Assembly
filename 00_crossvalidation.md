@@ -13,5 +13,6 @@ adding up lengths of all reads that were selected for the 100x
 ```
 zless results/Dere_14062023_PAO93669_sorted_100x.fastq.gz | paste - - - - |  awk  '{print(length($2))}' | paste -sd "+" | bc > total_bases_100x.txt
 ```
-old output: 7248944852 idealy it should be: 14 500 000 000
-it now is 14 500 076 338
+old output: 7248944852
+idealy it should be: 14 500 000 000
+new output: 14 500 076 338
