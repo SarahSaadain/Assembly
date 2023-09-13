@@ -18,3 +18,6 @@ old output: 7248944852
 idealy it should be: 14 500 000 000
 
 new output: 14 500 076 338
+
+
+14 500 076 338/genome size=100.0005
