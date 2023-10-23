@@ -9,8 +9,10 @@ zless fastq/Dere_14062023_PAO93669.fastq.gz  | cut -f1 -d " " | gzip -c > fastq/
 date
 ```
 
-and then
+and then to submit the script
 
 ```
 nohup bash scripts/clean_header.sh > clean_header.log &
 ```
+
+
