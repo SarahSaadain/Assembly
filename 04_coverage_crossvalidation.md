@@ -14,7 +14,9 @@ taskset -c 0-10 gzip -cd results/Dere_14062023_PAO93669_sorted.fastq.gz | paste 
 ```
 
 for 150x coverage multiply the genome length by the coverage is 21 750 000 000
-                                                                                     04_150x_coverage.sh                                                                               ``` 
+                                                                                     04_150x_coverage.sh
+                                                                                     
+``` 
 taskset -c 0-10 gzip -cd results/Dere_14062023_PAO93669_sorted.fastq.gz | paste - - - - |  awk 's<21750000000 {s+=length($2);print $1; print $2; print $3; print $4}' | gzip  > results/Dere_14062023_PAO93669_sorted_150x.fastq.gz
 ```
 
