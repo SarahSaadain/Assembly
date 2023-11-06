@@ -35,6 +35,5 @@ new output: 14 500 076 338<br>
 zless results/Dere_14062023_PAO93669_sorted_150x.fastq.gz | paste - - - - |  awk  '{print(length($2))}' | paste -sd "+" | bc > total_bases_150x.txt
 ```
 idealy it should be: 14 500 000 000<br>
-
-output: 21750052958
+output: 21750052958<br>
 check: 21750052958 /145 000 000 = 150
