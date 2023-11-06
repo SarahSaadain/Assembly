@@ -6,7 +6,7 @@ output: 122853180480
 
 
 
-fixed mistake: multiply the genome length by the coverage, in this case its 145 000 000 00
+fixed mistake: multiply the genome length by the coverage, in this case its 145 000 000 x 100 = 14 500 000 000
 
 04_100x_coverage.sh
 ```
