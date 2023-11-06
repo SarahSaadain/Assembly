@@ -7,6 +7,7 @@ output: 122853180480
 
 
 fixed mistake: multiply the genome length by the coverage, in this case its 145 000 000 x 100 = 14 500 000 000<br>
+ <br>
 **04_100x_coverage.sh**
 ```
 taskset -c 0-10 gzip -cd results/Dere_14062023_PAO93669_sorted.fastq.gz | paste - - - - |  awk 's<14500000000 {s+=length($2);print $1; print $2; print $3; print $4}' | gzip  > results/Dere_14062023_PAO93669_sorted_100x.fastq.gz
