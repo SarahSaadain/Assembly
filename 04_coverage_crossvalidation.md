@@ -28,7 +28,7 @@ zless results/Dere_14062023_PAO93669_sorted_100x.fastq.gz | paste - - - - |  awk
 old output: 7248944852<br>
 idealy it should be: 14 500 000 000<br>
 new output: 14 500 076 338<br>
-14 500 076 338/genome size=100 <br>
+crosscheck: 14 500 076 338/genome size=100 <br>
  <br>
 **04_crosscheck_150x.sh**
 ```
@@ -36,4 +36,4 @@ zless results/Dere_14062023_PAO93669_sorted_150x.fastq.gz | paste - - - - |  awk
 ```
 idealy it should be: 14 500 000 000<br>
 output: 21750052958<br>
-check: 21750052958 /145 000 000 = 150
+crosscheck: 21 750 052 958 /145 000 000 = 150
