@@ -35,3 +35,6 @@ date
 ../canu-2.2/bin/canu -trim corThreads=40 ovlMerDistinct=0.975 correctedErrorRate=0.085 -p derecta -d results/canu_correct genomeSize=145m -corrected -nanopore results/canu_correct/derecta.correctedReads.fasta.gz
 date
 ```
+Note:
+on vetlinux I used the fast settings (ovlMerDistinct=0.975 and maxerate of 0.0065)
+on Roco I used (ovlMerDistinct=0.975 but no specifics on maxerate)
