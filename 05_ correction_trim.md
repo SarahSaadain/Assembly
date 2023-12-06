@@ -29,7 +29,7 @@ date
 date
 ```
 
-This is what is now running on vetlinux, also including over correctedErrorRate=0.085
+This is the script that ran on vetlinux (finished in a few days) which additionally including a correctedErrorRate=0.085
 ```
 date
 ../canu-2.2/bin/canu -trim corThreads=40 ovlMerDistinct=0.975 correctedErrorRate=0.085 -p derecta -d results/canu_correct genomeSize=145m -corrected -nanopore results/canu_correct/derecta.correctedReads.fasta.gz
