@@ -36,5 +36,5 @@ date
 date
 ```
 Note:  
-  on vetlinux I used the fast settings (ovlMerDistinct=0.975 and maxerate of 0.0065)  
+  on vetlinux I used the fast settings (ovlMerDistinct=0.975 and correctedErrorRate=0.085)  
   on Roco I used (ovlMerDistinct=0.975 but no specifics on maxerate)
