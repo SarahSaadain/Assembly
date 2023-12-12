@@ -8,5 +8,5 @@ nucmer_outputs % ./../softwares/MUMmer3.23/nucmer -maxmatch -l 100 -c 500 ../ncb
 
 here I used the right strain
 ```
-bla
+./../softwares/MUMmer3.23/nucmer -maxmatch -l 100 -c 500 ../ncbi_dataset_22/ncbi_dataset/data/GCF_000001215.4/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna ../derecta.contigs.fasta -prefix dere_raw_assembly
 ```
