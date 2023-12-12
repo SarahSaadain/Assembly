@@ -6,6 +6,9 @@ its the reference assembly from NCBI which is made by three different files
 ```
 nucmer_outputs % ./../softwares/MUMmer3.23/nucmer -maxmatch -l 100 -c 500 ../ncbi_dataset_21/ncbi_dataset/data/GCF_003286155.1/GCF_003286155.1_DereRS2_genomic.fna ../derecta.contigs.fasta -prefix dere_raw_assembly
 ```
+data foudn here:
+http://assemblytics.com/analysis.php?code=hVfAiBU12iDW0RReR7JH
+
 
 then:
 ```
