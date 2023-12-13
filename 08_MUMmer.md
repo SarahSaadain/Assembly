@@ -1,44 +1,44 @@
 follow instructions here:
 http://assemblytics.com
 
-here I used the recommended assembly from NCBI (but not the right strain of D.ere), I called it dere_diffStrain_raw_assembly.delta.gz:
-its the reference assembly from NCBI which is made by three different files
+I used the recommended assembly from NCBI (but not the right strain of D.ere)
+its the reference assembly from NCBI & is made by three different files
+first I need to be in nucmer_outputs (on my computer in documents)
 ```
-nucmer_outputs % ./../softwares/MUMmer3.23/nucmer -maxmatch -l 100 -c 500 ../ncbi_dataset_21/ncbi_dataset/data/GCF_003286155.1/GCF_003286155.1_DereRS2_genomic.fna ../derecta.contigs.fasta -prefix dere_diffStrain_raw_assembly
+./../softwares/MUMmer3.23/nucmer -maxmatch -l 100 -c 500 ../ref_strain_dere_GCF_003286155.1_DereRS2_genomic.fna ../derecta.contigs.fasta -prefix 1_dere_vs_ref_assembly &
 ```
 
 then:
 ```
-gzip dere_raw_assembly.delta
+gzip 1_dere_vs_ref_assembly.delta
 ```
 
 data found here:
-http://assemblytics.com/analysis.php?code=hVfAiBU12iDW0RReR7JH
+http://assemblytics.com/analysis.php?code=nHxkFG9Mxuvdm1dkSiJF
 
 
 
-
-here I used the right strain
+here I used the right strain (careful its the only one with GCA input file not GCF)
 ```
-./../softwares/MUMmer3.23/nucmer -maxmatch -l 100 -c 500 ../ncbi_dataset_22/ncbi_dataset/data/GCF_000001215.4/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna ../derecta.contigs.fasta -prefix dere_sameStrain_raw_assembly
+./../softwares/MUMmer3.23/nucmer -maxmatch -l 100 -c 500 ../same_strain_GCA_018904525.1_ASM1890452v1_genomic.fna ../derecta.contigs.fasta -prefix 1_dere_vs_dere_assembly & 
 ```
 then:
 ```
-gzip dere_sameStrain_raw_assembly.delta
+gzip  1_dere_vs_dere_assembly.delta
 ```
 
 data found here:
-http://assemblytics.com/analysis.php?code=kunH3OKw7Iq3h2HIgQHA
+http://assemblytics.com/analysis.php?code=rOjgrbQfD3Io4vZ0ACkn
 
 
 here I used Dmel
 ```
-./../softwares/MUMmer3.23/nucmer -maxmatch -l 100 -c 500 ../ncbi_dataset_22/ncbi_dataset/data/GCF_000001215.4/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna ../derecta.contigs.fasta -prefix dere_dmel_raw_assembly
+nucmer_outputs % ./../softwares/MUMmer3.23/nucmer -maxmatch -l 100 -c 500 ../dmel_GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna ../derecta.contigs.fasta -prefix 1_dere_dmel_assembly &
 ```
 then:
 ```
-gzip dere_dmel_raw_assembly.delta
+gzip 1_dere_dmel_assembly.delta
 ```
 
 data found here:
-http://assemblytics.com/analysis.php?code=vPVLDF0ACzQ9gVptUhuc
+http://assemblytics.com/analysis.php?code=sxal50HQGfEz3eHYnUqf
